@@ -127,7 +127,7 @@ table {
   &.default {
     width: 100%;
     tbody {
-      tr:nth-child(2n+2) {
+      tr:nth-child(2n + 2) {
         background: #f4f4f4;
       }
     }
@@ -219,8 +219,8 @@ article {
   margin-bottom: 3em;
 }
 
-section> :last-child,
-article> :last-child,
+section > :last-child,
+article > :last-child,
 section:last-child,
 article:last-child {
   margin-bottom: 0;
@@ -402,7 +402,7 @@ ol {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  >.label {
+  > .label {
     display: none;
   }
 }
@@ -495,7 +495,10 @@ ol {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../images/overlay.png');
+    opacity: 0.4;
+    background: url('../images/sun.png');
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -597,7 +600,7 @@ ol {
 /* Intro */
 
 #intro {
-  >.style2 {
+  > .style2 {
     font-weight: 700;
     color: #fff;
     border-radius: 0.35em;
@@ -861,20 +864,20 @@ ol {
     left: 0;
     width: 100%;
     text-align: center;
-    >ul {
+    > ul {
       display: inline-block;
       border-radius: 0.35em;
       box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
       padding: 0 1.5em 0 1.5em;
-      >li {
+      > li {
         display: inline-block;
         text-align: center;
         padding: 0 1.5em 0 1.5em;
-        >ul {
+        > ul {
           display: none;
         }
-        >a,
-        >span {
+        > a,
+        > span {
           display: block;
           color: #eee;
           color: rgba(255, 255, 255, 0.75);
@@ -892,13 +895,13 @@ ol {
           outline: 0;
         }
         &:hover {
-          >a {
+          > a {
             color: #fff;
           }
         }
         &.active {
-          >a,
-          >span {
+          > a,
+          > span {
             color: #fff;
           }
         }
@@ -943,8 +946,8 @@ ol {
         }
       }
       &:hover {
-        >a,
-        >span {
+        > a,
+        > span {
           color: #fff;
         }
       }
@@ -953,18 +956,18 @@ ol {
   /* Intro */
   #intro {
     text-align: center;
-    >.style1 {
+    > .style1 {
       font-size: 1.5em;
       letter-spacing: 0.075em;
     }
-    >.style2 {
+    > .style2 {
       font-size: 2.75em;
       letter-spacing: 0.075em;
       line-height: 1.35em;
       padding: 1em 0 1em 0;
       margin-bottom: 1em;
     }
-    >.style3 {
+    > .style3 {
       font-size: 1.1em;
       width: 48em;
       margin: 0 auto;
@@ -1082,10 +1085,10 @@ ol {
   }
   /* Intro */
   #intro {
-    >.style1 {
+    > .style1 {
       font-size: 1.25em;
     }
-    >.style2 {
+    > .style2 {
       font-size: 2.25em;
     }
   }
@@ -1182,7 +1185,7 @@ ol {
     section {
       border-top: solid 1px #eee;
     }
-    >div>div:first-child>div:first-child>section {
+    > div > div:first-child > div:first-child > section {
       border-top: 0;
       padding-top: 0;
     }
