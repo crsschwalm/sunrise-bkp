@@ -293,13 +293,13 @@ button,
     background-color: #f98780;
   }
   &.style1 {
-    background: #e97770 url('../images/overlay.png');
     color: #fff;
+    background-color: #ffc371;
     &:hover {
-      background-color: #f98780;
+      background-color: #ff5f6d;
     }
     &:active {
-      background-color: #d96760;
+      background-color: #ff5f6d;
     }
   }
   &.style2 {
@@ -375,7 +375,7 @@ ol {
 
 .feature-list {
   h3 {
-    color: #e97770 !important;
+    color: #ff5f6d !important;
     &:before {
       position: relative;
       display: inline-block;
@@ -442,11 +442,16 @@ ol {
     }
   }
   &.style1 {
-    background: #e97770 url('../images/overlay.png');
+    background: #ffc371;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffc371, #ff5f6d);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffc371, #ff5f6d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #eee;
     color: rgba(255, 255, 255, 0.75);
     .title {
-      background: #e97770 url('../images/overlay.png');
+      background: #ffc371;
       color: #fff;
     }
     h1,
@@ -495,6 +500,7 @@ ol {
 }
 
 #footer-wrapper {
+  padding: 6em 0 6em 0;
   background: #282b34 url('../images/overlay.png');
   color: #eee;
   color: rgba(255, 255, 255, 0.5);
@@ -609,7 +615,7 @@ ol {
   .highlight {
     text-align: center;
     h3 {
-      color: #e97770;
+      color: #ff5f6d;
     }
   }
 }

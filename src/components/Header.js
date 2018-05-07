@@ -3,11 +3,11 @@ import React from 'react'
 class Header extends React.Component {
   render() {
     return (
-      <section id="header-wrapper" class="wrapper">
+      <div id="header-wrapper" className="wrapper">
         <div id="header">
           <div id="logo">
             <h1>
-              <a href="index.html">
+              <a href="index">
                 Sunrise <br /> Bookkeeping
               </a>
             </h1>
@@ -16,8 +16,8 @@ class Header extends React.Component {
 
           <nav id="nav">
             <ul>
-              <li class="current">
-                <a href="index.html">Home</a>
+              <li className="current">
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="/our-team">Our Team</a>
@@ -31,7 +31,7 @@ class Header extends React.Component {
             </ul>
           </nav>
         </div>
-      </section>
+      </div>
     )
   }
 }

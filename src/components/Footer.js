@@ -3,7 +3,7 @@ import React from 'react'
 class Footer extends React.Component {
   render() {
     return (
-      <section id="footer-wrapper" className="wrapper">
+      <div id="footer-wrapper" className="wrapper">
         <div className="title">Contact Us</div>
         <div id="footer" className="container">
           <header className="style1">
@@ -118,13 +118,14 @@ class Footer extends React.Component {
         </div>
         <div id="copyright">
           <ul>
-            <li>&copy; Untitled</li>
+            <li>&copy; Copyright 2018</li>
             <li>
-              Design: <a href="http://html5up.net">HTML5 UP</a>
+              Design:{' '}
+              <a href="https://github.com/crsschwalm/">Carson Schwalm</a>
             </li>
           </ul>
         </div>
-      </section>
+      </div>
     )
   }
 }

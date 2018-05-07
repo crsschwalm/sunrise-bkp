@@ -1,13 +1,18 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import '../assets/scss/homepage.scss'
+
+import pic02 from '../assets/images/pic02.jpg'
+import pic03 from '../assets/images/pic03.jpg'
+import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
 
     return (
-      <div>
+      <div className="page-container">
         <Helmet title={siteTitle} />
 
         <div id="intro-wrapper" className="wrapper style1">
@@ -51,7 +56,7 @@ class Homepage extends React.Component {
               <div className="4u 12u(mobile)">
                 <section className="highlight">
                   <a href="#" className="image featured">
-                    <img src="images/pic02.jpg" alt="" />
+                    <img src={pic02} alt="" />
                   </a>
                   <h3>
                     <a href="#">Aliquam diam consequat</a>
@@ -73,7 +78,7 @@ class Homepage extends React.Component {
               <div className="4u 12u(mobile)">
                 <section className="highlight">
                   <a href="#" className="image featured">
-                    <img src="images/pic03.jpg" alt="" />
+                    <img src={pic03} alt="" />
                   </a>
                   <h3>
                     <a href="#">Nisl adipiscing sed lorem</a>
@@ -95,7 +100,7 @@ class Homepage extends React.Component {
               <div className="4u 12u(mobile)">
                 <section className="highlight">
                   <a href="#" className="image featured">
-                    <img src="images/pic04.jpg" alt="" />
+                    <img src={pic04} alt="" />
                   </a>
                   <h3>
                     <a href="#">Mattis tempus lorem</a>
