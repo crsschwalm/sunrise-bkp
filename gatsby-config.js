@@ -1,18 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Photon",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Photon by HTML5 UP"
+    title: "Sunrise Bookkeeping",
+    author: "Carson Schwalm",
+    description: "A website to promote the Sunrise Bookkeeping brand."
   },
   pathPrefix: '/',
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/posts`,
-        name: "posts",
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,9 +27,9 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-react-helmet`
   ],
 }

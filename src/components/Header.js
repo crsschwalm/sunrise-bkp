@@ -20,13 +20,13 @@ class Header extends React.Component {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/our-team">Our Team</a>
+                <a href="/team">Our Team</a>
               </li>
               <li>
                 <a href="/services">Services</a>
               </li>
               <li>
-                <a href="/pay-online">Pay Online</a>
+                <a href="/payment">Pay Online</a>
               </li>
             </ul>
           </nav>

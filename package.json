@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-photon",
-  "description": "Gatsby Starter - Photon",
+  "name": "sunrise-bkp",
+  "description": "A website to promote the Sunrise Bookkeeping brand.",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Carson Schwalm",
   "dependencies": {
     "gatsby": "^1.9.243",
     "gatsby-image": "^1.0.42",
@@ -19,16 +19,8 @@
     "lodash": "^4.17.5",
     "node-quickbooks": "^2.0.24"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "dev": "gatsby develop",
     "develop": "gatsby develop",

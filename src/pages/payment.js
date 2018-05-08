@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import '../assets/scss/page/team.scss'
+import '../assets/scss/page/payment.scss'
 
-class TeamPage extends React.Component {
+class PaymentPage extends React.Component {
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title
 
@@ -114,14 +114,14 @@ class TeamPage extends React.Component {
     }
 }
 
-TeamPage.propTypes = {
+PaymentPage.propTypes = {
     route: React.PropTypes.object,
 }
 
-export default TeamPage
+export default PaymentPage
 
 export const pageQuery = graphql`
-  query TeamQuery {
+  query PaymentQuery {
     site {
       siteMetadata {
         title

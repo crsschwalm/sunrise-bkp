@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import '../assets/scss/homepage.scss'
+import '../assets/scss/page/homepage.scss'
 
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'

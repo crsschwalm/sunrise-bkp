@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import '../assets/scss/services.scss'
+import '../assets/scss/page/services.scss'
 
 class ServicesPage extends React.Component {
   render() {
