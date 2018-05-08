@@ -1619,7 +1619,7 @@ ol.default li {
 }
 
 #header-wrapper {
-  background: url('../../images/banner.jpg') center center;
+  background: url('../images/banner.jpg') center center;
   background-size: cover;
 }
 
